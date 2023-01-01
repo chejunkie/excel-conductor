@@ -2,7 +2,7 @@
 .NET library to access any running Excel Application (single or multiple instances).
 
 # Description
-All running Excel instances are reliably returned. It extends the Excel type hierarchy by adding a top-level `Session` that contains `Applications` that contains `Workbooks` that contains `Sheets` etc.
+All running Excel instances are reliably returned, even workbooks opened from OneDrive. It extends the Excel type hierarchy by adding a top-level `Session` that contains `Applications` that contains `Workbooks` that contains `Sheets` etc.
 
 # Example
 `Applications` is the main access point. It returns an untyped sequence because `Excel.Application` is an embedded interop type. Elements can be safely cast to `Excel.Application` by the consuming project via the main `Session` class.
