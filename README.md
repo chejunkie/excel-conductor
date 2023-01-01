@@ -45,4 +45,4 @@ public class ExcelConductorTests
 	}
 }
 ````
-Some extension methods, posibly useful, are also provided. Extension methods for `Appication` and `Process` conversion.
+Some extras, possibly useful, are also included. Extension methods for `Appication` and `Process` conversion.
