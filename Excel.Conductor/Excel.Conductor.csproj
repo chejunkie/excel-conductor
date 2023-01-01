@@ -1,0 +1,47 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+		<PropertyGroup>
+				<TargetFrameworks>netstandard2.0;net45;net6.0</TargetFrameworks>
+				<LangVersion>8.0</LangVersion>
+				<Nullable>enable</Nullable>
+				<AssemblyName>ChEJunkie.Excel.Conductor</AssemblyName>
+				<RootNamespace>ChEJunkie.Office.Excel</RootNamespace>
+		</PropertyGroup>
+
+		<PropertyGroup>
+				<GenerateDocumentationFile>true</GenerateDocumentationFile>
+				<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+				<Authors>Brian Satola</Authors>
+				<Company>Brian Satola</Company>
+				<Copyright>2022</Copyright>
+				<PackageProjectUrl>https://github.com/chejunkie/temp-folder</PackageProjectUrl>
+				<PackageTags>Excel;interop;chejunkie</PackageTags>
+				<PackageReleaseNotes>This is the initial release.</PackageReleaseNotes>
+				<PackageId>ChEJunkie.Excel.Conductor</PackageId>
+				<PackageIcon>icon.png</PackageIcon>
+				<PackageReadmeFile>README.md</PackageReadmeFile>
+				<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+				<Version>1.0.0</Version>
+				<Description>.NET library to access any running Excel Application. The library reliably returns all running instances, Extending the Excel type hierarchy up one level so that Session (the primary class) contains Applications contains Workbooks contains Sheets etc.</Description>
+		</PropertyGroup>
+
+		<ItemGroup>
+				<None Include="icon.png" Pack="true" Visible="false" PackagePath="" />
+				<None Include="..\README.md" Pack="true" Visible="false" PackagePath="" />
+				<None Include="..\LICENSE.txt" Pack="true" Visible="false" PackagePath="" />
+		</ItemGroup>
+
+		<ItemGroup>
+				<PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
+				<COMReference Include="Microsoft.Office.Interop.Excel">
+						<WrapperTool>tlbimp</WrapperTool>
+						<VersionMinor>9</VersionMinor>
+						<VersionMajor>1</VersionMajor>
+						<Guid>00020813-0000-0000-c000-000000000046</Guid>
+						<Lcid>0</Lcid>
+						<Isolated>false</Isolated>
+						<EmbedInteropTypes>true</EmbedInteropTypes>
+				</COMReference>
+		</ItemGroup>
+
+</Project>
