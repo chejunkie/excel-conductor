@@ -14,7 +14,7 @@
 				<Authors>Brian Satola</Authors>
 				<Company>Brian Satola</Company>
 				<Copyright>2022</Copyright>
-				<PackageProjectUrl>https://github.com/chejunkie/temp-folder</PackageProjectUrl>
+				<PackageProjectUrl>https://github.com/chejunkie/excel-conductor</PackageProjectUrl>
 				<PackageTags>Excel;interop;chejunkie</PackageTags>
 				<PackageReleaseNotes>This is the initial release.</PackageReleaseNotes>
 				<PackageId>ChEJunkie.Excel.Conductor</PackageId>
