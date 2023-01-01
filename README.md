@@ -45,5 +45,4 @@ public class ExcelConductorTests
 	}
 }
 ````
-
-Some extras, possibly useful, are also included. Extension methods for `Appication` and `Process` conversion. `WinApi` helper class.
+Some extras, possibly useful, are also included. Extension methods for `Appication` and `Process` conversion.
