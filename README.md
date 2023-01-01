@@ -1,5 +1,5 @@
 # Excel Conductor
-.NET library to access any running Excel Application (single or multiple instances).
+.NET library to access any running Excel Application (single or multiple instances). Based on [CodeProject | Automate multiple Excel instances](https://www.codeproject.com/Articles/1157395/Automate-multiple-Excel-instances)
 
 # Description
 All running Excel instances are reliably returned, even workbooks opened from OneDrive. It extends the Excel type hierarchy by adding a top-level `Session` that contains `Applications` that contains `Workbooks` that contains `Sheets` etc.
