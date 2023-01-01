@@ -25,7 +25,6 @@ public void Session_TracksNewWorkbook_Success()
 		app = new();
 		app.Visible = true;
 		Excel.Workbook wb = app.Workbooks.Add(app.Workbooks.Count + 1);
-		Excel.Worksheet ws = wb.ActiveSheet;
 		countUpdate = session.Applications.OfType<Excel.Application>().Count();
 		wb.Close();
 	}
