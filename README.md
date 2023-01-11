@@ -1,4 +1,7 @@
 # Excel Conductor
+
+[![NuGet version (ChEJunkie.Excel.Conductor)](https://img.shields.io/nuget/v/ChEJunkie.Excel.Conductor.svg?style=flat-square)](https://www.nuget.org/packages/ChEJunkie.Excel.Conductor/)
+
 .NET library to access any running Excel Application (single or multiple instances). Based on [CodeProject | Automate multiple Excel instances](https://www.codeproject.com/Articles/1157395/Automate-multiple-Excel-instances)
 
 # Description
